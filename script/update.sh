@@ -1,1 +1,2 @@
-git pull && ./repo sync -cq -j8
+cd /data/jenkins/workspace/ResurrectionRemix
+git pull && ./repo sync -j8
