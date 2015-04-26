@@ -8,5 +8,3 @@ cd /data/jenkins/workspace/ResurrectionRemix
 
 
 git pull && repo sync -j4
-
-#TEST
