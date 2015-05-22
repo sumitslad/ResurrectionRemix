@@ -30,7 +30,7 @@
 <!--Kernels-->
 <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.1" />
 <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
-<project path="kernel/sony/msm8930" name="varunchitre15/android_kernel_sony_msm8930" remote="github" revision="cm-12.1" />
+<project path="kernel/sony/msm8930" name="Sohamlad7/android_kernel_sony_msm8930" remote="github" revision="cm-12.1" />
 <project path="kernel/sony/msm8x60" name="CyanogenMod/android_kernel_sony_msm8x60" remote="github" revision="cm-12.1" />
 
 <!--Z3 specific-->
