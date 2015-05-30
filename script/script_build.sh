@@ -165,6 +165,13 @@ elif [ "$opt_clean" -eq 2 ]; then
     make installclean >/dev/null
     echo -e "$BLEU Output directory is: $ROUGE Dirty $NORMAL"
     echo ""
+	
+elif [ "$opt_clean" -eq 3 ]; then
+    echo -e "$ROUGE Reseting all REPO and Cleaning it $NORMAL"
+		cd $home
+		repo forall -vc "git reset --hard" && repo forall -vc "git clean -df"
+    echo -e ""
+	
 else
     if [ -d "$OUTDIR/target" ]; then
         echo -e "$BLEU Output directory is: $ROUGE Untouched $NORMAL"
