@@ -11,7 +11,7 @@
 
 <!--Devices-->
 <project path="device/motorola/titan" name="CyanogenMod/android_device_motorola_titan" remote="github" revision="cm-12.1" />
-<project path="device/sony/taoshan" name="CyanogenMod/android_device_sony_taoshan" remote="github" revision="cm-12.1" />
+<project path="device/sony/taoshan" name="Sohamlad7/android_device_sony_taoshan-1" remote="github" revision="lp5.1" />
 <project path="device/sony/tsubasa" name="CyanogenMod/android_device_sony_tsubasa" remote="github" revision="cm-12.1" />
 <project path="device/xiaomi/armani" name="sud-vastav/device_xiaomi_armani" remote="github" revision="RR" />
 <project path="device/motorola/condor" name="CyanogenMod/android_device_motorola_condor" remote="github" revision="cm-12.1" />
